@@ -1,0 +1,131 @@
+/* JavaFX CSS - Leave thi/* JavaFX CSS - Leave this comment until you have at least create one rule which uses -fx-Property */
+.label-label1 {
+   -fx-font-size: 30px;
+   -fx-font-family: "Arial Black";
+   -fx-text-fill: #95a5a6;
+   -fx-effect: innershadow( three-pass-box , rgba(0,0,0,0.7) , 6, 0.0 , 0 , 2 );
+
+}
+.label-label1{
+	-fx-font-size: 50px;
+}
+.welcome-text-alltext {
+   -fx-font-size: 32px;
+   -fx-font-family: "Arial Black";
+   -fx-fill: #FDDB92;
+   -fx-effect: innershadow( three-pass-box , rgba(0,0,0,0.7) , 6, 0.0 , 0 , 2 );
+}
+.combo-box .cell{
+    -fx-text-fill: #EFC76C;
+    -fx-font: 16px "Arial Black";
+    -fx-background-color: #2c3e50;
+}
+.red-column.table-cell {
+    -fx-padding: 0.5em;
+    -fx-border-color: transparent; 
+    -fx-box-border: transparent transparent;
+    -fx-font: 13px "Arial Black";
+    -fx-text-fill: red;
+}.table-view{
+    -fx-background-color: transparent;
+}
+
+.table-view:focused{
+    -fx-background-color: transparent;
+}
+
+.table-view .column-header-background{
+	 -fx-background-color: #2c3e50;
+}
+
+.table-view .column-header-background .label{
+    -fx-background-color: transparent;
+    -fx-text-fill: #ffffff;
+    -fx-font: 14px "Arial Black";
+}
+.label-lEmployee{
+	-fx-text-fill: #ffffff;
+    -fx-font: 14px "Arial Black";
+}
+
+.table-view .column-header {
+    -fx-background-color: transparent;
+}
+
+.table-view .table-cell{
+    -fx-text-fill: #ffffff;
+    -fx-alignment: center;
+    -fx-font: 14px "Arial Black";
+}
+
+.table-row-cell{
+    -fx-background-color: -fx-table-cell-border-color, #FFA96B;
+    -fx-background-insets: 0, 0 0 1 0;
+    -fx-padding: 0.0em; /* 0 */
+}
+
+.table-row-cell:odd{
+    -fx-background-color: -fx-table-cell-border-color, #FB9F82;
+    -fx-background-insets: 0, 0 0 1 0;
+    -fx-padding: 0.0em; /* 0 */
+}
+
+.table-row-cell:selected {
+    -fx-background-color: #ADCDFE;
+    -fx-background-insets: 3;
+    -fx-background-radius: 3;
+}
+.my-list-cell {
+    -fx-text-fill: blue;
+    -fx-font: 16px "Arial Black";
+    /* No alternate highlighting */
+    -fx-background-color: red;
+}
+.welcome-text-Employee {
+   -fx-font-family: "Arial Black";
+   -fx-fill: #818181;
+   -fx-effect: innershadow( three-pass-box , rgba(0,0,0,0.7) , 6, 0.0 , 0 , 2 );
+   -fx-font-size: 35px;
+}
+.button-allButtons {
+    -fx-font-weight: bold;
+    -fx-effect: innershadow( three-pass-box , rgba(0,0,0,0.6) , 5, 0.0 , 0 , 1 );
+    -fx-background-radius: 31px, 15px, 20px, 31px;
+	-fx-padding:10px, 10px, 10px, 10px;
+	-fx-text-fill: #EFC76C;
+	-fx-background-color:#2c3e50;
+    -fx-font-family:bold10pt "Arial Narrow"; 
+}
+.button:hover-allButtons{
+	
+    -fx-font-weight: bold;    
+    -fx-background-color: linear-gradient(#2A5058, #61a2b1);
+    -fx-background-radius: 31px, 15px, 20px, 31px;
+    -fx-padding:10px, 10px, 10px, 10px; 
+    -fx-text-fill: #ffffff;
+}
+.root-scene{
+	-fx-background-size:cover;
+	-fx-spacing:50;
+	-fx-padding:30; 
+   	-fx-background-radius: 190;
+	-fx-base: #d1d8e0; 
+    -fx-focused-text-base-color : white;       
+}
+
+.root-scene-C-E{
+	-fx-background-size:cover;
+	-fx-spacing:10;
+	-fx-padding:5; 
+   	-fx-background-radius: 190;
+	-fx-base: #d1d8e0; 
+    -fx-focused-text-base-color : white;       
+}
+#Search{
+	-fx-background-image: url(file:image/search-icon.png);
+    -fx-background-repeat: stretch;   
+    -fx-background-size: 28 28;
+    -fx-background-position: center center;
+    -fx-pref-width: 40;
+    -fx-background-color: white;
+}

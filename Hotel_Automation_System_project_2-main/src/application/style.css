@@ -1,0 +1,268 @@
+#rootstyle{
+	-fx-background-image: url(file:image/menu-1-bg.jpg);
+    -fx-background-repeat: stretch;   
+    -fx-background-size: 1200 800;
+    -fx-background-position: center center;
+    -fx-effect: dropshadow(three-pass-box, black, 30, 0.5, 0, 0); 
+}
+#vmenu{
+    -fx-padding: 280px 0px 160px 0px;
+}
+#root2{
+    -fx-padding: 0px 10px 10px 10px;
+}
+#vmenu.button{
+}
+.button:pressed {
+	-fx-opacity: 0.5;
+    -fx-background-color: black;
+    -fx-text-fill: white;
+}
+#loginvbox{
+	-fx-padding: 250px 0px 250px 0px;
+	/*-fx-border-style: solid solid none solid;
+    -fx-border-width: 1;
+    -fx-border-color: yellow;*/
+	-fx-pref-weight:200px;	
+}
+#loginroot{
+	-fx-background-image: url(file:image/login-bg.gif);
+    -fx-background-repeat: stretch;   
+    -fx-background-size: 1200 800;
+    -fx-background-position: center center;
+    -fx-padding: 0px 115px 0px 0px;
+}
+
+#luser{
+	/*-fx-border-style: solid solid none solid;
+    -fx-border-width: 1;
+    -fx-border-color: yellow;*/
+	-fx-text-fill: white;
+}
+#lpass{
+	/*-fx-border-style: solid solid none solid;
+    -fx-border-width: 1;
+    -fx-border-color: yellow;*/
+	-fx-text-fill: white;	
+}
+#tfuser{
+	/*-fx-background-color: transparent;*/
+	/*-fx-border-style: solid solid none solid;
+    -fx-border-width: 1;
+    -fx-border-color: yellow;*/
+	-fx-pref-height:40px;
+	-fx-pref-weight:150px;
+}
+#tfpass{
+	/*-fx-background-color: transparent;*/
+	/*-fx-border-style: solid solid none solid;
+    -fx-border-width: 1;
+    -fx-border-color: yellow;*/
+    -fx-pref-height:40px;
+	-fx-pref-weight:150px;
+}
+#ltitle{
+	-fx-padding: 320px 0px 0px 280px;
+    -fx-spacing: 10;
+    -fx-alignment: center;
+    -fx-font-size: 80;
+ 	-fx-text-fill: greenyellow;
+
+	/*-fx-border-style: solid solid none solid;
+    -fx-border-width: 1;
+    -fx-border-color: yellow;*/
+	
+}
+#btnlogin{
+	-fx-pref-width:85px;
+	-fx-padding:10px 10px 10px 10px;
+	}
+#btnexit{
+	-fx-pref-width:85px;
+	-fx-padding: 10px 10px 10px 10px;
+}
+#tablestyle{
+	-fx-padding: 10px 10px 10px 10px;
+}
+#menubutons{
+	-fx-pref-height:60px;
+	-fx-pref-width:250px;
+	-fx-background-color: transparent;
+	-fx-font-size:18px;
+}
+#menubutons:hover{
+	-fx-opacity: 0.5;
+
+    -fx-background-color: black;
+    -fx-text-fill: white;
+}
+#root_calisan_style{
+	-fx-background-image: url(file:image/calisan/calisan-bg.gif);
+    -fx-background-repeat: stretch;   
+    -fx-background-size: 1200 800;
+    -fx-background-position: center center;
+    -fx-effect: dropshadow(three-pass-box, black, 30, 0.5, 0, 0);
+}
+#root_yonetici_style{
+	-fx-background-image: url(file:image/yonetici/yonetici-bg.gif);
+    -fx-background-repeat: stretch;   
+    -fx-background-size: 1200 800;
+    -fx-background-position: center center;
+    -fx-effect: dropshadow(three-pass-box, black, 30, 0.5, 0, 0);
+}
+#root_yonetici_operations{
+	-fx-background-image: url(file:image/yonetici/operations-menu.jpg);
+    -fx-background-repeat: stretch;   
+    -fx-background-size: 1200 800;
+    -fx-background-position: center center;
+    -fx-effect: dropshadow(three-pass-box, black, 30, 0.5, 0, 0);
+}
+#root_calisan_operations{
+	-fx-background-image: url(file:image/calisan/operations-menu.jpg);
+    -fx-background-repeat: stretch;   
+    -fx-background-size: 1200 800;
+    -fx-background-position: center center;
+    -fx-effect: dropshadow(three-pass-box, black, 30, 0.5, 0, 0);
+}
+#root_statistic{
+	-fx-background-image: url(file:image/yonetici/statistics_menu.jpg);
+    -fx-background-repeat: stretch;   
+    -fx-background-size: 1200 800;
+    -fx-background-position: center center;
+    -fx-effect: dropshadow(three-pass-box, black, 30, 0.5, 0, 0);
+}
+#root_add_epmloyee{
+	-fx-background-image: url(file:image/yonetici/add_menu.jpg);
+    -fx-background-repeat: stretch;   
+    -fx-background-size: 1200 800;
+    -fx-background-position: center center;
+    -fx-effect: dropshadow(three-pass-box, black, 30, 0.5, 0, 0);
+}
+#root-EmployeeMenu-Stack{
+	-fx-background-image: url("file:image/projeAmblem.png");
+    -fx-background-repeat: stretch;   
+    -fx-background-size: 1200 800;
+    -fx-background-position: center center;
+    -fx-effect: dropshadow(three-pass-box, black, 30, 0.5, 0, 0);
+}
+#root_add_epmloyer{
+	-fx-background-image: url(file:image/calisan/add-menu.jpg);
+    -fx-background-repeat: stretch;   
+    -fx-background-size: 1200 800;
+    -fx-background-position: center center;
+    -fx-effect: dropshadow(three-pass-box, black, 30, 0.5, 0, 0);
+}
+#cst-border-table-style{
+	-fx-padding: 200px 0px 0px 0px;
+}
+#main-style{
+	-fx-background-image: url(file:image/start-img.jpg);
+    -fx-background-repeat: stretch;   
+    -fx-background-size: 600 600;
+    -fx-background-position: center center;
+    -fx-effect: dropshadow(three-pass-box, black, 30, 0.5, 0, 0);
+    -fx-padding: 252px 0px 0px 100px;
+}
+#main-butons{
+	-fx-pref-height:100px;
+	-fx-pref-width:400px;
+	-fx-background-color: transparent;
+	-fx-font-size:18px;
+}
+#main-butons:hover{
+	-fx-opacity: 0.1;
+    -fx-background-color: black;
+    -fx-text-fill: white;
+}
+#stat_top_menu{
+	/*-fx-border-style: solid solid none solid;
+    -fx-border-width: 1;
+    -fx-border-color: blue;*/
+    -fx-pref-height:60px;
+    -fx-padding: 2px 1px 2px 1px;
+   
+}
+#top_menu_label{
+	-fx-text-fill: white;
+	-fx-font-size: 20;
+	-fx-effect: dropshadow( three-pass-box , rgba(0,0,0,0.7) , 6, 0.0 , 0 , 2 );
+	
+}
+#top_user_icon{
+	-fx-background-image: url(file:image/user_icon.png);
+    -fx-background-repeat: stretch;   
+    -fx-background-size: 24 24;
+    -fx-background-color: transparent;
+    -fx-background-position: center center;
+    -fx-pref-height:24px;
+	-fx-pref-width:24px;
+}
+#content_label{
+	-fx-text-fill: white;
+	-fx-font-size: 14;
+}
+#stat-grid-style{
+	/*-fx-border-style: solid solid none solid;
+    -fx-border-width: 1;
+    -fx-border-color: yellow;*/
+    -fx-padding: 60px 60px 60px 60px;
+}
+#stat-label-style{
+	-fx-text-fill: white;
+	-fx-font-size: 24;
+}
+#opr-border-style{
+	-fx-padding: 40px 40px 40px 40px;
+}
+.progress-indicator .percentage {
+    -fx-fill: #ffffff ;
+    -fx-font-size: 14;
+}
+#info_btn{
+	-fx-background-image: url(file:image/info_icon.png);
+    -fx-background-repeat: stretch;   
+    -fx-background-size: 24 24;
+    -fx-background-color: transparent;
+    -fx-background-position: center center;
+	-fx-pref-height:60px;
+	-fx-pref-width:250px;
+	-fx-background-color: transparent;
+	-fx-font-size:18px;
+}
+#hboxtop-style{
+	-fx-padding: 0px 0px 0px 820px;
+}
+.chart-pie-label-line {
+    -fx-stroke: #ffffff;
+    -fx-fill: #ffffff;
+}
+ 
+.chart-pie-label {
+    -fx-fill: #ffffff;
+    -fx-font-size: 1em;
+} 
+.chart-legend {
+   -fx-background-color:  #fafad2;
+   -fx-text-fill: white;
+}
+.chart-title{
+	-fx-text-fill: #ffffff;
+	-fx-font-size: 24;
+}
+#Employerinfo-style{
+	-fx-background-image: url(file:image/info_panel01.jpg);
+    -fx-background-repeat: stretch;   
+    -fx-background-size: 420 800;
+    -fx-background-position: center center;
+}
+#Employeeinfo-style{
+	-fx-background-image: url(file:image/info_panel02.jpg);
+    -fx-background-repeat: stretch;   
+    -fx-background-size: 420 800;
+    -fx-background-position: center center;
+}
+#info-exit{
+	-fx-background-color:#ae0000;
+	-fx-text-fill: white;
+	-fx-font-size:20;
+}
